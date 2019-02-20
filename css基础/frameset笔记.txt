@@ -1,0 +1,7 @@
+1，frameset框架集的意思
+格式为<frameset rows="100,*"/cols="1,2">
+<frame src=""></frame></frameset>可以嵌套
+
+2，作用是将页面划成多个部分,划分几个就显示几个。
+3，body和frameset只能出现一个。
+4，框架集还有两个属性是：noresize控制边界是否可以改变,frameborder是否有边界（0和1表示）;

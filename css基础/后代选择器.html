@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="gbk">
+<title>后代选择器</title>
+<style>
+ .wrapper .header{background:gold}
+ .wrapper .content{background:skyblue}
+ .wrapper .footer{background:deeppink}
+ .footer{background:red }
+</style>
+</head>
+<body>
+<div class="wrapper">
+<div class="header">header</div>
+<div class="content">后代选择器的意思就是说，“特别照顾”，基于父的后代才能显示的样式，其他的即使样式名称一样，但是如果不是父的后代，则显示不了后代选择器的样式</div>
+<div class="footer">footer</div>
+</div>wrapper的后代使用范围结束
+<div class="footer">看我不是wrapper的后代能不能继承footer</div>
+</body>
+</html>

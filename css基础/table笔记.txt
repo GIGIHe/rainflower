@@ -1,0 +1,9 @@
+1，table是html中的表格，table的属性有width，height，border（如果不设置这个属性表格无法显示其表格轮廓，border设置的时候里面的单元格也会有值，但是当border设为10，单元格还是1），align：center，left，right,
+colspan(列合并)，cellspacing(单元格距边框的距离)，cellpadding（单元格距离里面的内容的大小），bgcolor。
+2，tr是行的意思，td是列的意思，用法为<tr><td></td><td></td></tr>
+属性有，height，align，valign top bottom middle,rowspan（行合并），
+3，表格的使用格式为
+   <table border="">
+     <tr><th></th>(适用于第一行的每一列)</tr>
+     <tr><td></td></tr>
+   </table>

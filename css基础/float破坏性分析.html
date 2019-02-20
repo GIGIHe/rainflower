@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="gbk">
+<title>tt</title>
+<style>
+.dd{
+border:1px solid red;
+}
+.dt{float:left;}
+</style>
+</head>
+<body>
+<div class="dd">
+<div class="dt">当子元素设置float会使块级父元素造成塌陷
+塌陷的解决办法：1，在父元素中加入样式：overflow：hidden；
+               2，在父标签中加入一个空的块级元素，并设置clear：both；
+               3，在子元素中加入height：px;(但并不是对所有情况都适用)
+</div>
+</div>
+</body>
+</html>
+
+
+
